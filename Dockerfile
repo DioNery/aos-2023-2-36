@@ -1,5 +1,5 @@
 # Use uma imagem base que inclua Node.js
-FROM node:14
+FROM node:20
 
 # Defina o diretório de trabalho no contêiner
 WORKDIR /app
@@ -14,4 +14,4 @@ RUN npm install
 EXPOSE 3000
 
 # Comando para iniciar o aplicativo
-CMD ["npm", "start"]
+CMD ["npm", " start"]
